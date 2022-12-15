@@ -1,0 +1,54 @@
+body {
+    background-color: antiquewhite;
+}
+.container form {
+    background-color:darkgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    width: 70%;
+    margin: 0 auto;
+    padding-block: 20px;
+    border-radius: 15px;
+}
+.form-div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-block: 5px;
+}
+.form-div label {
+    text-align: center;
+    font-size: 1.2rem;
+}
+.form-div input {
+    font-size: 1rem;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+.form-div select {
+    font-size: 1.2rem;
+    width: 50%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+}
+#magic {
+    width: 22px;
+    height: 22px;
+}
+.form-div-lab {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 5px;
+}
+.form-div-weap {
+    display: flex;
+    font-size: 1.3rem;
+    margin-inline: -40px;
+}

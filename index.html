@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save data in form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <h1>Save data in form</h1>
+            <div class="form-div">
+                <label for="username">Username</label>
+                <input type="text" placeholder="username" name="username" autocomplete="off" id="username" >
+            </div>
+            <div class="form-div">
+                <label for="age">Age</label>
+                <input type="number" placeholder="17" name="age" autocomplete="off" id="age">
+            </div>
+            <div class="form-div">
+                <label for="select">Select:</label>
+                <select name="select" id="sel">
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                </select>
+            </div>
+            <div class="form-div">
+                <label for="magic">magic</label>
+                <input type="checkbox" name="magic" id="magic">
+            </div>
+            <div class="form-div">
+                <div class="form-div-lab">Weapon:</div>
+                <div class="form-div-weap">
+                    <label for="sword">sword</label>
+                    <input type="radio" name="weapon" value="sword" checked>
+                    <label for="sword">stick</label>
+                    <input type="radio" name="weapon" value="stick" >
+                    <label for="sword">hammer</label>
+                    <input type="radio" name="weapon" value="hammer" >
+                </div>
+            </div>
+            <div class="form-div">
+                <input class="btn" type="submit" value="Send">
+            </div>
+        </form>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
